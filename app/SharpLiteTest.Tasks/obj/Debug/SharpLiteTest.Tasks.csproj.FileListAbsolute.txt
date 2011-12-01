@@ -1,0 +1,9 @@
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLiteTest.Tasks.dll
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLiteTest.Tasks.pdb
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLite.Domain.dll
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLiteTest.Domain.dll
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLiteTest.Domain.pdb
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\bin\Debug\SharpLite.Domain.pdb
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\obj\Debug\SharpLiteTest.Tasks.dll
+C:\dev\proj\MyNewSharpArchProject\app\SharpLiteTest.Tasks\obj\Debug\SharpLiteTest.Tasks.pdb

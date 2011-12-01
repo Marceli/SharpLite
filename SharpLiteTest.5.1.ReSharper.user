@@ -1,0 +1,52 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CEF24DDD-1D15-42BC-B035-4A33388C3F8C/d:NHibernateProvider/f:MappingIntegrationTests.cs" caret="696" fromTop="18" />
+      <File id="CEF24DDD-1D15-42BC-B035-4A33388C3F8C/f:App.config" caret="169" fromTop="3" />
+      <File id="7112AC6B-C406-481D-99D4-56BA796B7173/f:StructureMapDependencyResolver.cs" caret="876" fromTop="2" />
+      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/f:Web.config" caret="0" fromTop="0" />
+      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/f:Web.config" caret="738" fromTop="22" />
+      <File id="7112AC6B-C406-481D-99D4-56BA796B7173/f:DependencyResolverInitializer.cs" caret="477" fromTop="2" />
+      <File id="4E471CAC-A108-49AE-A4D6-155DC35712C9/f:NHibernateInitializer.cs" caret="831" fromTop="9" />
+      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Home/f:Index.cshtml" caret="100" fromTop="6" />
+      <File id="BE147A77-3E59-40E6-822D-5AEDFD5D383C/f:BaseEntityCudTasks.cs" caret="7450" fromTop="35" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CEF24DDD-1D15-42BC-B035-4A33388C3F8C/f:App.config" caret="169" fromTop="3" />
+      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/f:Web.config" caret="471" fromTop="4" />
+      <File id="4E471CAC-A108-49AE-A4D6-155DC35712C9/f:NHibernateInitializer.cs" caret="681" fromTop="12" />
+      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/f:Web.config" caret="1170" fromTop="3" />
+      <File id="4E471CAC-A108-49AE-A4D6-155DC35712C9/f:NHibernateInitializer.cs" caret="446" fromTop="2" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\dev\tools\NUnit\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="Environment" priority="0" />
+      <Item value="DbContext`0" priority="0" />
+      <Item value="db" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
