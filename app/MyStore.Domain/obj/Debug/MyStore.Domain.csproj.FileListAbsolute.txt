@@ -1,6 +1,0 @@
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\bin\Debug\MyStore.Domain.dll
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\bin\Debug\MyStore.Domain.pdb
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\bin\Debug\SharpLite.Domain.dll
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\obj\Debug\ResolveAssemblyReference.cache
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\obj\Debug\MyStore.Domain.dll
-C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Domain\obj\Debug\MyStore.Domain.pdb
