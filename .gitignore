@@ -6,5 +6,9 @@ _ReSharper.MyStore
 *.suo
 */*/bin
 */*/obj
+*/*/Bin
+logs
+
+
 
 
