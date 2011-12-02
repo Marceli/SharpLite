@@ -1,8 +1,0 @@
-<Modules>
-  <Module PersistentId="3B107D47-9BB3-4D6A-80E2-E430D6C06F45" ModuleId="SharpLiteTest.Web" />
-  <Module PersistentId="CEF24DDD-1D15-42BC-B035-4A33388C3F8C" ModuleId="SharpLiteTest.Tests" />
-  <Module PersistentId="4E471CAC-A108-49AE-A4D6-155DC35712C9" ModuleId="SharpLiteTest.NHibernateProvider" />
-  <Module PersistentId="7112AC6B-C406-481D-99D4-56BA796B7173" ModuleId="SharpLiteTest.Init" />
-  <Module PersistentId="BE147A77-3E59-40E6-822D-5AEDFD5D383C" ModuleId="SharpLiteTest.Tasks" />
-  <Module PersistentId="74801410-F690-490C-91EA-CD94E520A465" ModuleId="SharpLiteTest.Domain" />
-</Modules>

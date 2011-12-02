@@ -1,0 +1,21 @@
+﻿@model MyStore.Domain.Person
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>People</legend>
+
+    @Html.DisplayFor(m => m.FirstName)
+    @Html.DisplayFor(m => m.LastName)
+    @Html.DisplayFor(m => m.BirthDate,"Date")
+</fieldset>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

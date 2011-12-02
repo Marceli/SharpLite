@@ -1,0 +1,27 @@
+﻿@model MyStore.Tasks.ViewModels.EditPersonViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer Form</h2>
+
+@using (Html.BeginForm("Edit", "People")) {
+    @Html.ValidationSummary("Please note the following:")
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>Product Category</legend>
+
+        @Html.HiddenFor(m => m.Person.Id)
+        @Html.EditorFor(m => m.Person.FirstName)
+        @Html.EditorFor(m => m.Person.LastName)
+        @Html.EditorFor(m => m.Person.BirthDate)
+
+        <p>
+            <input type="submit" value="Save" /> 
+            @Html.ActionLink("Cancel", "Index")
+        </p>
+    </fieldset>
+}

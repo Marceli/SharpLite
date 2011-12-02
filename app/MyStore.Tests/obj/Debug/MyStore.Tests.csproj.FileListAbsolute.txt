@@ -1,0 +1,17 @@
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.Tests.dll.config
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.Tests.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.Tests.pdb
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.NHibernateProvider.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\NHibernate.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\nunit.framework.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.Domain.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\SharpLite.NHibernateProvider.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\Inflector.Net.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\SharpLite.Domain.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\Iesi.Collections.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.NHibernateProvider.pdb
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\nunit.framework.xml
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\bin\Debug\MyStore.Domain.pdb
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\obj\Debug\MyStore.Tests.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tests\obj\Debug\MyStore.Tests.pdb

@@ -1,0 +1,90 @@
+2011-11-29 14:47:03,164 [13] ?.lambda_method(:0) - NHibernate 3.2.0.4000 (3.2.0.4000)
+
+2011-11-29 14:47:03,179 [13] ?.lambda_method(:0) - hibernate-configuration section not found in application configuration file
+
+2011-11-29 14:47:03,180 [13] ?.lambda_method(:0) - Bytecode provider name : lcg
+
+2011-11-29 14:47:03,181 [13] ?.lambda_method(:0) - Using reflection optimizer
+
+2011-11-29 14:47:03,206 [13] ?.lambda_method(:0) - No mapped documents found in assembly: MyStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+2011-11-29 14:47:03,428 [13] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2011-11-29 14:47:03,467 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.OrderLineItem -> OrderLineItems
+
+2011-11-29 14:47:03,525 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.ProductMgmt.ProductCategory -> ProductCategories
+
+2011-11-29 14:47:03,531 [13] ?.lambda_method(:0) - Mapping collection: MyStore.Domain.ProductMgmt.ProductCategory.Products -> Products_ProductCategories
+
+2011-11-29 14:47:03,537 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.Order -> Orders
+
+2011-11-29 14:47:03,538 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.ProductMgmt.Product -> Products
+
+2011-11-29 14:47:03,538 [13] ?.lambda_method(:0) - Mapping collection: MyStore.Domain.ProductMgmt.Product.Categories -> Products_ProductCategories
+
+2011-11-29 14:47:03,539 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.Customer -> Customers
+
+2011-11-29 14:47:03,539 [13] ?.lambda_method(:0) - Mapping class: MyStore.Domain.Person -> People
+
+2011-11-29 14:47:03,546 [13] ?.lambda_method(:0) - checking mappings queue
+
+2011-11-29 14:47:03,550 [13] ?.lambda_method(:0) - processing one-to-many association mappings
+
+2011-11-29 14:47:03,559 [13] ?.lambda_method(:0) - mapping collection: MyStore.Domain.ProductMgmt.ProductCategory.Children -> ProductCategories
+
+2011-11-29 14:47:03,561 [13] ?.lambda_method(:0) - mapping collection: MyStore.Domain.Order.OrderLineItems -> OrderLineItems
+
+2011-11-29 14:47:03,561 [13] ?.lambda_method(:0) - mapping collection: MyStore.Domain.Customer.Orders -> Orders
+
+2011-11-29 14:47:03,562 [13] ?.lambda_method(:0) - processing one-to-one association property references
+
+2011-11-29 14:47:03,562 [13] ?.lambda_method(:0) - processing foreign key constraints
+
+2011-11-29 14:47:03,566 [13] ?.lambda_method(:0) - processing filters (second pass)
+
+2011-11-29 14:47:03,632 [13] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2011-11-29 14:47:03,637 [13] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2011-11-29 14:47:03,660 [13] ?.lambda_method(:0) - Using dialect defined converter
+
+2011-11-29 14:47:03,661 [13] ?.lambda_method(:0) - Generate SQL with comments: disabled
+
+2011-11-29 14:47:03,663 [13] ?.lambda_method(:0) - Configuring ConnectionProvider
+
+2011-11-29 14:47:03,665 [13] ?.lambda_method(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+
+2011-11-29 14:47:03,665 [13] ?.lambda_method(:0) - Optimize cache for minimal puts: False
+
+2011-11-29 14:47:03,666 [13] ?.lambda_method(:0) - Connection release mode: auto
+
+2011-11-29 14:47:03,666 [13] ?.lambda_method(:0) - Default batch fetch size: 1
+
+2011-11-29 14:47:03,666 [13] ?.lambda_method(:0) - Statistics: disabled
+
+2011-11-29 14:47:03,667 [13] ?.lambda_method(:0) - Deleted entity synthetic identifier rollback: disabled
+
+2011-11-29 14:47:03,667 [13] ?.lambda_method(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+
+2011-11-29 14:47:03,670 [13] ?.lambda_method(:0) - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+
+2011-11-29 14:47:03,672 [13] ?.lambda_method(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2011-11-29 14:47:03,672 [13] ?.lambda_method(:0) - Order SQL inserts for batching: enabled
+
+2011-11-29 14:47:03,674 [13] ?.lambda_method(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2011-11-29 14:47:03,674 [13] ?.lambda_method(:0) - Default entity-mode: Poco
+
+2011-11-29 14:47:03,675 [13] ?.lambda_method(:0) - Named query checking : enabled
+
+2011-11-29 14:47:03,693 [13] ?.lambda_method(:0) - building session factory
+
+2011-11-29 14:47:03,992 [13] ?.lambda_method(:0) - no name configured
+
+2011-11-29 14:47:14,146 [18] ?.lambda_method(:0) - SELECT person0_.Id as Id6_0_, person0_.FirstName as FirstName6_0_, person0_.LastName as LastName6_0_, person0_.BirthDate as BirthDate6_0_ FROM People person0_ WHERE person0_.Id=@p0
+
+2011-11-29 14:47:45,846 [8] ?.lambda_method(:0) - SELECT person0_.Id as Id6_0_, person0_.FirstName as FirstName6_0_, person0_.LastName as LastName6_0_, person0_.BirthDate as BirthDate6_0_ FROM People person0_ WHERE person0_.Id=@p0
+
+2011-11-29 14:47:53,544 [15] ?.lambda_method(:0) - SELECT person0_.Id as Id6_0_, person0_.FirstName as FirstName6_0_, person0_.LastName as LastName6_0_, person0_.BirthDate as BirthDate6_0_ FROM People person0_ WHERE person0_.Id=@p0
+

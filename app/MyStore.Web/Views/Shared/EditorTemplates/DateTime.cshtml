@@ -1,0 +1,9 @@
+﻿@model DateTime
+
+<div class="editor-label">
+    @Html.Label("")
+</div>
+<div class="editor-field">
+    @Html.TextBoxFor(m => m.Year)/@Html.TextBoxFor(m => m.Month)/@Html.TextBoxFor(m => m.Day) 
+    @Html.ValidationMessageFor(m => m)
+</div>

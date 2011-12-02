@@ -1,0 +1,8 @@
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\bin\Debug\MyStore.Tasks.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\bin\Debug\MyStore.Tasks.pdb
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\bin\Debug\MyStore.Domain.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\bin\Debug\SharpLite.Domain.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\bin\Debug\MyStore.Domain.pdb
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\obj\Debug\MyStore.Tasks.dll
+C:\dev\tools\Sharp-Lite\Example\MyStore\app\MyStore.Tasks\obj\Debug\MyStore.Tasks.pdb
