@@ -38,6 +38,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="SharpLite.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f2f64e823dfaf078, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NHibernateProvider\AssignationTest.cs" />
     <Compile Include="NHibernateProvider\MappingIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +58,10 @@
     <Folder Include="Web\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyStore.Domain\MyStore.Domain.csproj">
+      <Project>{74801410-F690-490C-91EA-CD94E520A465}</Project>
+      <Name>MyStore.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyStore.NHibernateProvider\MyStore.NHibernateProvider.csproj">
       <Project>{4E471CAC-A108-49AE-A4D6-155DC35712C9}</Project>
       <Name>MyStore.NHibernateProvider</Name>

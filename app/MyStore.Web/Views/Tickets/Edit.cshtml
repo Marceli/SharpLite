@@ -1,0 +1,26 @@
+﻿@model MyStore.Tasks.ViewModels.EditTicketViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ticket Form</h2>
+
+@using (Html.BeginForm("Edit", "Tickets")) {
+    @Html.ValidationSummary("Please note the following:")
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>Ticket</legend>
+
+        @Html.HiddenFor(m => m.Ticket.Id)
+        @Html.EditorFor(m => m.Ticket.Title)
+        @Html.EditorFor(m => m.Ticket.Description)
+
+        <p>
+            <input type="submit" value="Save" /> 
+            @Html.ActionLink("Cancel", "Index")
+        </p>
+    </fieldset>
+}

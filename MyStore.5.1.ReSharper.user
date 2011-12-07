@@ -49,11 +49,8 @@
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Areas/d:ProductMgmt/d:Views/d:Products/f:Index.cshtml" caret="1365" fromTop="35" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:EditorTemplates/f:String.cshtml" caret="0" fromTop="0" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Binders/f:MoneyBinder.cs" caret="199" fromTop="8" />
-      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:DisplayTemplates/f:Date.cshtml" caret="24" fromTop="1" />
-      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:EditorTemplates/f:Date.cshtml" caret="71" fromTop="3" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:DisplayTemplates/f:Money.cshtml" caret="0" fromTop="0" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:EditorTemplates/f:Money.cshtml" caret="209" fromTop="9" />
-      <File id="d:Miscellaneous Files/f:SharpLite.Web.Mvc.ModelBinder.SharpModelBinder.cs/l:C!?dev?tools?Sharp-Lite?Example?MyStore?_ReSharper.MyStore?DecompilerCache?metadata?SharpLite.Web-6c07?SharpLite.Web.Mvc.ModelBinder.SharpModelBinder.cs" caret="235" fromTop="2" />
       <File id="7112AC6B-C406-481D-99D4-56BA796B7173/f:DependencyResolverInitializer.cs" caret="765" fromTop="10" />
       <File id="7112AC6B-C406-481D-99D4-56BA796B7173/f:StructureMapDependencyResolver.cs" caret="50" fromTop="0" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/f:Global.asax.cs" caret="1411" fromTop="14" />
@@ -84,11 +81,8 @@
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Controllers/f:PeopleController.cs" caret="1808" fromTop="25" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Controllers/f:PeopleController.cs" caret="15" fromTop="1" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Controllers/f:PeopleController.cs" caret="2110" fromTop="18" />
-      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:EditorTemplates/f:Date.cshtml" caret="115" fromTop="6" />
-      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:DisplayTemplates/f:Date.cshtml" caret="22" fromTop="0" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:People/f:Details.cshtml" caret="306" fromTop="14" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:People/f:Edit.cshtml" caret="559" fromTop="9" />
-      <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Views/d:Shared/d:EditorTemplates/f:Date.cshtml" caret="71" fromTop="3" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Binders/f:DateBinder.cs" caret="600" fromTop="14" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/d:Binders/f:DateBinder.cs" caret="648" fromTop="17" />
       <File id="3B107D47-9BB3-4D6A-80E2-E430D6C06F45/f:Global.asax.cs" caret="1380" fromTop="11" />

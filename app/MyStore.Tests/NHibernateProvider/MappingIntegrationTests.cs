@@ -38,10 +38,15 @@ namespace MyStore.Tests.NHibernateProvider
         /// Generates and outputs the database schema SQL to the console
         /// </summary>
         [Test]
-        public void CanGenerateDatabaseSchema() {
-            using (ISession session = _sessionFactory.OpenSession()) {
-                using (TextWriter stringWriter = new StreamWriter("../../../../app/MyStore.DB/Schema/UnitTestGeneratedSchema.sql")) {
-                    new SchemaExport(_configuration).Execute(true, false, false, session.Connection, stringWriter);
+        public void CanGenerateDatabaseSchema()
+        {
+            using (ISession session = _sessionFactory.OpenSession())
+            {
+                using (
+                    TextWriter stringWriter =
+                        new StreamWriter("../../../../app/MyStore.DB/Schema/UnitTestGeneratedSchema.sql"))
+                {
+                    new SchemaExport(_configuration).Execute(true, true, false, session.Connection, stringWriter);
                 }
             }
         }

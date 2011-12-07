@@ -1,0 +1,54 @@
+@model IEnumerable<MyStore.Domain.Ticket>
+
+@{
+    ViewBag.Title = "Ticket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            Descrition 
+        </th>
+        <th>
+            Status 
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @item.TicketStatus
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+
+                @using (Html.BeginForm("Delete", "Ticket", FormMethod.Post, new { style = "display:inline" })) {
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("id", item.Id)
+                    <input type="submit" value="Delete" />
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>

@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="ActionConfirmation.cs" />
     <Compile Include="Address.cs" />
+    <Compile Include="Car.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Owner.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="ProductMgmt\Queries\IQueryForProductOrderSummaries.cs" />
     <Compile Include="Money.cs" />
@@ -61,6 +63,9 @@
     <Compile Include="Queries\CustomerOrderSummaryDto.cs" />
     <Compile Include="Queries\FindActiveCustomers.cs" />
     <Compile Include="Queries\QueryForCustomerOrderSummaries.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="TicketPersonAssignation.cs" />
+    <Compile Include="TicketStatusType.cs" />
     <Compile Include="Validators\DataAnnotationsValidator.cs" />
   </ItemGroup>
   <ItemGroup>

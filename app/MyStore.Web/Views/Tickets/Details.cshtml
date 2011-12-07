@@ -1,0 +1,21 @@
+@model MyStore.Domain.Ticket
+
+@{
+    ViewBag.Title = "Ticket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Ticket</legend>
+
+    @Html.DisplayFor(t => t.Title)
+    @Html.DisplayFor(m => m.Description)
+    @Html.DisplayFor(m => m.TicketStatus)
+</fieldset>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
