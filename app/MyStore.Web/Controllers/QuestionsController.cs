@@ -7,12 +7,12 @@ using SharpLite.Domain.DataInterfaces;
 
 namespace MyStore.Web.Controllers
 {
-    public class QuestionController : Controller
+    public class QuestionsController : Controller
     {
         private IRepository<Question> questionRepository;
         private QuestionCudTasks questionMgmtTasks;
 
-        public QuestionController(IRepository<Question> questionRepository,
+        public QuestionsController(IRepository<Question> questionRepository,
             QuestionCudTasks questionMgmtTasks)
         {
 
@@ -46,15 +46,15 @@ namespace MyStore.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Ticket ticket)
+        public ActionResult Edit(Question question)
         {
             if (ModelState.IsValid)
             {
-                if (ticket.Id == 0)
+                if (question.Id == 0)
                 {
-                    ticket.Created = DateTime.Now;
+                    question.DateCreated = DateTime.Now;
                 }
-                ActionConfirmation<Ticket> confirmation = questionMgmtTasks.SaveOrUpdate(ticket);
+                ActionConfirmation<Question> confirmation = questionMgmtTasks.SaveOrUpdate(question);
 
                 if (confirmation.WasSuccessful)
                 {
@@ -65,14 +65,14 @@ namespace MyStore.Web.Controllers
                 ViewData["message"] = confirmation.Message;
             }
 
-            return View(questionMgmtTasks.CreateEditViewModel(ticket));
+            return View(questionMgmtTasks.CreateEditViewModel(question));
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
         {
-            ActionConfirmation<Ticket> confirmation = questionMgmtTasks.Delete(id);
+            ActionConfirmation<Question> confirmation = questionMgmtTasks.Delete(id);
             TempData["message"] = confirmation.Message;
             return RedirectToAction("Index");
         }

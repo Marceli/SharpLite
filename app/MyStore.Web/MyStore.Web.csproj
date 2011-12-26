@@ -78,6 +78,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\PeopleController.cs" />
+    <Compile Include="Controllers\QuestionsController.cs" />
     <Compile Include="Controllers\TicketsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -128,6 +129,9 @@
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Views\Tickets\Edit.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\TicketStatusType.cshtml" />
+    <Content Include="Views\Questions\Index.cshtml" />
+    <Content Include="Views\Questions\Details.cshtml" />
+    <Content Include="Views\Questions\Edit.cshtml" />
     <None Include="Views\Tickets\Index.cshtml" />
     <None Include="Views\Tickets\Details.cshtml" />
     <Content Include="Web.config">
@@ -253,7 +257,7 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
+          <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>55462</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>

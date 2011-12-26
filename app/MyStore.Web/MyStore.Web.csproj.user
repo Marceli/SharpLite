@@ -9,17 +9,15 @@
         <WebProjectProperties>
           <StartPageUrl>
           </StartPageUrl>
-          <StartAction>CurrentPage</StartAction>
+          <StartAction>Program</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>
           <SQLDebugging>False</SQLDebugging>
-          <ExternalProgram>
-          </ExternalProgram>
+          <ExternalProgram>C:\Users\maya\AppData\Local\Google\Chrome\Application\chrome.exe</ExternalProgram>
           <StartExternalURL>
           </StartExternalURL>
-          <StartCmdLineArguments>
-          </StartCmdLineArguments>
+          <StartCmdLineArguments>http:55462//localhost/</StartCmdLineArguments>
           <StartWorkingDirectory>
           </StartWorkingDirectory>
           <EnableENC>False</EnableENC>

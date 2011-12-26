@@ -1,0 +1,21 @@
+﻿@model MyStore.Domain.Question
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+
+<fieldset>
+    <legend>Customer</legend>
+
+    @Html.DisplayFor(m => m.Title)
+    @Html.DisplayFor(m => m.Content)
+    @Html.DisplayFor(m => m.DateCreated)
+</fieldset>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -25,7 +25,7 @@ namespace MyStore.Tests.NHibernateProvider
         }
 
         [Test]
-        public void CanConfirmDatabaseMatchesMappings() {
+        public void CanCofirmanDrabaseatMcheMappsings() {
             var allClassMetadata = _sessionFactory.GetAllClassMetadata();
 
             foreach (var entry in allClassMetadata) {
