@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="ActionConfirmation.cs" />
     <Compile Include="Address.cs" />
+    <Compile Include="Answer.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Owner.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Queries\CustomerOrderSummaryDto.cs" />
     <Compile Include="Queries\FindActiveCustomers.cs" />
     <Compile Include="Queries\QueryForCustomerOrderSummaries.cs" />
+    <Compile Include="Question.cs" />
     <Compile Include="Ticket.cs" />
     <Compile Include="TicketPersonAssignation.cs" />
     <Compile Include="TicketStatusType.cs" />
