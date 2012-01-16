@@ -9,6 +9,26 @@ namespace MyStore.NHibernateProvider
 {
     public class NHibernateInitializer
     {
+        
+        public static Configuration Initialize(string connectionString) {
+            Configuration configuration = new Configuration();
+
+            configuration
+                .Proxy(p => p.ProxyFactoryFactory<DefaultProxyFactoryFactory>())
+                .DataBaseIntegration(db =>
+                                         {
+                                             db.ConnectionString = connectionString;
+                    
+                    db.Dialect<MsSql2008Dialect>();
+                })
+                .AddAssembly(typeof(Customer).Assembly)
+                .CurrentSessionContext<LazySessionContext>();
+
+            ConventionModelMapper mapper = new ConventionModelMapper();
+            mapper.WithConventions(configuration);
+
+            return configuration;
+        }
         public static Configuration Initialize() {
             Configuration configuration = new Configuration();
 

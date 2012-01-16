@@ -1,9 +1,11 @@
-﻿using System.IO;
+﻿using System;
+using System.Configuration;
+using System.IO;
 using MyStore.NHibernateProvider;
 using NHibernate;
-using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using NUnit.Framework;
+using Configuration = NHibernate.Cfg.Configuration;
 
 namespace MyStore.Tests.NHibernateProvider
 {
@@ -20,6 +22,9 @@ namespace MyStore.Tests.NHibernateProvider
     {
         [SetUp]
         public virtual void SetUp() {
+            var dataDirectory = ConfigurationManager.AppSettings["DataDirectory"];
+            var absoluteDataDirectory = Path.GetFullPath(dataDirectory);
+            AppDomain.CurrentDomain.SetData("DataDirectory", absoluteDataDirectory); 
             _configuration = NHibernateInitializer.Initialize();
             _sessionFactory = _configuration.BuildSessionFactory();
         }
